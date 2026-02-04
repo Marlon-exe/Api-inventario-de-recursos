@@ -21,13 +21,13 @@ const swaggerOptions = {
       version: '1.0.0',
       description: 'API para el control de entrega para productos'
     },
-    severs: [
+    servers: [
       {
         url: `http://localhost:${port}/api`,
         description: 'Server Local'
       }
     ],
-  },
+  },-m ##
   apis: ['./src/routers/*.js'],
 };
 
